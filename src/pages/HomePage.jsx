@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
-
+import NavBar from "../layouts/NavBar";
+import Header from "../layouts/Header";
+import ImageShuffle from "../components/ImageShuffle";
 const HomePage = () => {
     return(
         <div>
-            <h1>This is my initial Home Page</h1>
+            <ImageShuffle/>
         </div>
     )
 }

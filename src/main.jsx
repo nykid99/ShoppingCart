@@ -6,6 +6,9 @@ import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/HomePage";
 import ShopPage from "./pages/ShopPage";
 import AboutPage from "./pages/AboutPage";
+import Header from "./layouts/Header";
+import NavBar from "./layouts/NavBar";
+import Footer from "./layouts/Footer";
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -29,6 +32,9 @@ const routes = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <Header/>
+    <NavBar/>
     <RouterProvider router={routes} />
+    <Footer/>
   </React.StrictMode>
 );
