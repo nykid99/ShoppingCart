@@ -7,7 +7,7 @@ import HomePage from "./pages/HomePage";
 import ShopPage from "./pages/ShopPage";
 import AboutPage from "./pages/AboutPage";
 import Header from "./layouts/Header";
-import NavBar from "./layouts/NavBar";
+import DiscountBar from "./layouts/DiscountBar";
 import Footer from "./layouts/Footer";
 const routes = createBrowserRouter([
   {
@@ -33,7 +33,7 @@ const routes = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Header/>
-    <NavBar/>
+    <DiscountBar/>
     <RouterProvider router={routes} />
     <Footer/>
   </React.StrictMode>

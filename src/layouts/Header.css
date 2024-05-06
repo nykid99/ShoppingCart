@@ -1,6 +1,24 @@
-.HeaderContainer{
-    height: 120px;
-    background-color: #DBC1AD
-}
 
+.HeaderContainer{
+    display: flex;
+    height: 160px;
+    background-color: #DBC1AD;
+    justify-content: space-between;
+    padding:0px 60px 0px 60px;
+}
+.LogoContainer{
+    height: 160px;
+    width: 160px;
+    background-image: url('../assets/imgs/Test6.png');
+    background-size: cover;
+}
+.LeftHeaderContainer{
+    border:2px solid red;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.ShopButtonContainer{
+
+}
 /* https://www.shutterstock.com/blog/10-gorgeous-color-schemes-for-websites for the colors*/
